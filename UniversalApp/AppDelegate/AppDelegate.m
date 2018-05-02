@@ -16,9 +16,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //测试git，关联远程库
-    //第二次push嘎嘎
-    //本地增加yami分支
+    //全部痕迹删除，只剩下这一行
+    
     
     
     //初始化window
