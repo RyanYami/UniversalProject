@@ -187,6 +187,7 @@
 		29FEE77B1ECED1E200C81B60 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */; };
 		29FEE77C1ECED1E200C81B60 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */; };
 		503719F12099920500980E81 /* GitTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 503719F02099920500980E81 /* GitTestClass.m */; };
+		508A7A71209A04C700E85693 /* DevClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 508A7A70209A04C700E85693 /* DevClass.m */; };
 		5BC8C50C0BEF57AA0780D5DC /* libPods-UniversalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E884624664B432D4FE5044F /* libPods-UniversalApp.a */; };
 /* End PBXBuildFile section */
 
@@ -483,6 +484,8 @@
 		29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
 		503719EF2099920500980E81 /* GitTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTestClass.h; sourceTree = "<group>"; };
 		503719F02099920500980E81 /* GitTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestClass.m; sourceTree = "<group>"; };
+		508A7A6F209A04C700E85693 /* DevClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DevClass.h; sourceTree = "<group>"; };
+		508A7A70209A04C700E85693 /* DevClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DevClass.m; sourceTree = "<group>"; };
 		9E884624664B432D4FE5044F /* libPods-UniversalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniversalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AB222BA7ACF202B5B1330 /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1446,6 +1449,8 @@
 			children = (
 				29AD6C601ED3E4D600B0879C /* AppDelegate.h */,
 				29AD6C611ED3E4D600B0879C /* AppDelegate.m */,
+				508A7A6F209A04C700E85693 /* DevClass.h */,
+				508A7A70209A04C700E85693 /* DevClass.m */,
 				503719EF2099920500980E81 /* GitTestClass.h */,
 				503719F02099920500980E81 /* GitTestClass.m */,
 				29AD6C5E1ED3E4D600B0879C /* AppDelegate+AppService.h */,
@@ -1886,6 +1891,7 @@
 				29AD6C5A1ED3E28800B0879C /* HeaderModel.m in Sources */,
 				293D45FA1ECDA4D8007C64A9 /* RootWebViewController.m in Sources */,
 				296DEA751F5D50D100C6FD00 /* UIView+SDExtension.m in Sources */,
+				508A7A71209A04C700E85693 /* DevClass.m in Sources */,
 				29D3C0091F4D11A200FD3914 /* FFTagsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
