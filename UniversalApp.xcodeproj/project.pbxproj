@@ -186,6 +186,7 @@
 		29FEE7681ECEC27900C81B60 /* MBProgressHUD+XY.m in Sources */ = {isa = PBXBuildFile; fileRef = 29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */; };
 		29FEE77B1ECED1E200C81B60 /* MBHUD_Warn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */; };
 		29FEE77C1ECED1E200C81B60 /* MBHUD_Warn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */; };
+		503719F12099920500980E81 /* GitTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 503719F02099920500980E81 /* GitTestClass.m */; };
 		5BC8C50C0BEF57AA0780D5DC /* libPods-UniversalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E884624664B432D4FE5044F /* libPods-UniversalApp.a */; };
 /* End PBXBuildFile section */
 
@@ -480,6 +481,8 @@
 		29FEE7671ECEC27900C81B60 /* MBProgressHUD+XY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XY.m"; sourceTree = "<group>"; };
 		29FEE7731ECED1E200C81B60 /* MBHUD_Warn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@2x.png"; sourceTree = "<group>"; };
 		29FEE7741ECED1E200C81B60 /* MBHUD_Warn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MBHUD_Warn@3x.png"; sourceTree = "<group>"; };
+		503719EF2099920500980E81 /* GitTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTestClass.h; sourceTree = "<group>"; };
+		503719F02099920500980E81 /* GitTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestClass.m; sourceTree = "<group>"; };
 		9E884624664B432D4FE5044F /* libPods-UniversalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UniversalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A51AB222BA7ACF202B5B1330 /* Pods-UniversalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UniversalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UniversalApp/Pods-UniversalApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1443,6 +1446,8 @@
 			children = (
 				29AD6C601ED3E4D600B0879C /* AppDelegate.h */,
 				29AD6C611ED3E4D600B0879C /* AppDelegate.m */,
+				503719EF2099920500980E81 /* GitTestClass.h */,
+				503719F02099920500980E81 /* GitTestClass.m */,
 				29AD6C5E1ED3E4D600B0879C /* AppDelegate+AppService.h */,
 				29AD6C5F1ED3E4D600B0879C /* AppDelegate+AppService.m */,
 				2924783C1ED6857300BB097A /* AppDelegate+PushService.h */,
@@ -1858,6 +1863,7 @@
 				2914E48D1F20A471001C01DB /* PersonListLogic.m in Sources */,
 				293ECC2D1EE56D1D008061A1 /* IMManager.m in Sources */,
 				29AD6C4D1ED3D51200B0879C /* OpenUDID.m in Sources */,
+				503719F12099920500980E81 /* GitTestClass.m in Sources */,
 				290A97FE1F4ABC12006BF882 /* MineHeaderView.m in Sources */,
 				296DEA721F5D50D100C6FD00 /* TAPageControl.m in Sources */,
 				29530FA61F60F0E800D24E05 /* DraggingCardViewController.m in Sources */,
