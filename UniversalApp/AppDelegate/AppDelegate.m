@@ -15,6 +15,10 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    //测试git
+    
+    
     //初始化window
     [self initWindow];
     
