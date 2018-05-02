@@ -17,7 +17,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //测试git，关联远程库
-    //第二次push
+    //第二次push嘎嘎
     
     
     //初始化window
