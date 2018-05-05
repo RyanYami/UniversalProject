@@ -15,7 +15,7 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    //我现在对dev分支做了修改
+    //我现在对dev分支做了修改(在此修复了bug)
     /////////////////////
     
     //对dev分支做第二处更改
