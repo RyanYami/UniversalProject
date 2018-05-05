@@ -16,8 +16,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    //全部痕迹删除，只剩下这一行本地开发分支和远程开发分支关联
-    
     //初始化window
     [self initWindow];
     
